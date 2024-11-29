@@ -12,9 +12,9 @@
          embedded
          arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
     <a-asset-item id="obj" src="models/Models_G0404A744/AsusZenbookPro.obj"></a-asset-item>
-<!--    <a-asset-item id="mtl" src="models/monkey.mtl"></a-asset-item>-->
+    <a-asset-item id="mtl" src="models/Models_G0404A744/AsusZenbookPro.mtl"></a-asset-item>
     <a-marker preset="hiro">
-        <a-obj-model id="model" src="#obj" position='0 0 0' scale='0.1 0.1 0.1'></a-obj-model>
+        <a-obj-model id="model" src="#obj" mtl="#mtl" position='0 0 0' scale='0.1 0.1 0.1'></a-obj-model>
     </a-marker>
     <a-entity camera></a-entity>
 </a-scene>
