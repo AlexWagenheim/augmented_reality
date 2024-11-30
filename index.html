@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>AR Sample 0.4</title>
+    <title>AR Sample 0.5</title>
     <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
 <!--    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>-->
@@ -16,11 +16,11 @@
     </a-assets>
 <!--    <a-asset-item id="obj" src="https://disk.yandex.ru/d/ybqwHHGkrI23bA"></a-asset-item>-->
 <!--    <a-asset-item id="mtl" src="https://disk.yandex.ru/d/e_iPAi8DofUmLA"></a-asset-item>-->
-    <a-entity gltf-model="./models/apart_2/result.gltf" rotation="0 0 0"></a-entity>
+    <a-gltf-model id="model" src="./models/apart_2/result.gltf" position='0 0 0' scale='1 1 1'></a-gltf-model>
     <a-marker preset="hiro">
 <!--        <a-gltf-model id="model" src="#gltf" position='0 0 0' scale='1 1 1'></a-gltf-model>-->
 <!--        <a-gltf-model src="#gltf"></a-gltf-model>-->
-        <a-entity gltf-model="./models/apart_2/result.gltf" rotation="-90 0 0"></a-entity>
+        <a-gltf-model id="model" src="./models/apart_2/result.gltf" position='0 0 0' scale='1 1 1'></a-gltf-model>
     </a-marker>
     <a-entity camera></a-entity>
 </a-scene>
